@@ -1,0 +1,17 @@
+{
+  "name": "rest-api",
+  "version": "0.0.1",
+  "description": "Mock API server for this test",
+  "main": "rest-api.js",
+  "scripts": {
+    "start": "nodemon mock-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darren Beukes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.3"
+  }
+}
