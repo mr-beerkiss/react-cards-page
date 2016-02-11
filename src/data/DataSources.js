@@ -6,11 +6,13 @@ const DataSource = (function() {
 
     var cardsCache = {};
 
+    //http://localhost:8080/a/.rest/lazycards/v1/designs?nid=3fa3fdd5-abaa-4c53-9d65-cc166f196a27&nlocale=en_GB&bsessioncode=7f08f2e34cee9d67e95e134a6c576592&bchannelid=1002&occasionCategory=christmas&occasionName=christmas-cards&skip=15&limit=15
+
     const StaticParams = {
         NODE_ID: '3fa3fdd5-abaa-4c53-9d65-cc166f196a27',
         LOCALE: 'en_GB',
-        SESSION_CODE: '40e6fa127896d09d012171a0fd9e5ead',
-        CHANNEL_ID: '17191'
+        SESSION_CODE: '7f08f2e34cee9d67e95e134a6c576592',
+        CHANNEL_ID: '1002'
     };
 
     var getCardsCache = function(category, occasionName, flushCache ) {
